@@ -18,9 +18,6 @@
 
         protected CommerceCommander Commander { get; set; }
 
-        /// <inheritdoc />
-        /// <summary>Initializes a new instance of the <see cref="T:Sitecore.Framework.Pipelines.PipelineBlock" /> class.</summary>
-        /// <param name="commander">The commerce commander.</param>
         public SetTrackingFieldBlock(CommerceCommander commander)
             : base(null)
         {
@@ -116,7 +113,7 @@
         }
 
         /// <summary>
-        ///     Returns an array of all the parent ids (category + catalog) of a SellableItem
+        ///     Returns an array of all the parent ids (category) of a SellableItem
         /// </summary>
         /// <param name="sellableItem"></param>
         /// <returns></returns>

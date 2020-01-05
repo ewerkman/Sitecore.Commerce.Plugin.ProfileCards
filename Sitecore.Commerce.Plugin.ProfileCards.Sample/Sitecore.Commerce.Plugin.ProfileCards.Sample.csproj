@@ -37,6 +37,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Sitecore.Commerce.Plugin.ProfileCards\Sitecore.Commerce.Plugin.ProfileCards.csproj" />
+    <ProjectReference Include="..\Sitecore.Commerce.Plugin.ProfileCards\Sitecore.Commerce.Plugin.ProfileCards.csproj" />
   </ItemGroup>
 </Project>

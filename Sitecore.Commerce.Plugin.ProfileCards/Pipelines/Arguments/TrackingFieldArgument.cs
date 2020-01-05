@@ -6,9 +6,9 @@
 
     public class TrackingFieldArgument : PipelineArgument
     {
-        public SellableItem SellableItem;
-        public string ParentCategoryName;
-        public Tracking TrackingField;
+        public SellableItem SellableItem { get; }
+        public string ParentCategoryName { get; }
+        public Tracking TrackingField { get; }
 
         public TrackingFieldArgument(SellableItem sellableItem, string parentCategoryName, Tracking trackingField)
         {
